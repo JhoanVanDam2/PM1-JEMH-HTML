@@ -1,0 +1,109 @@
+html{
+    font-size: 0.9em;
+    font-family: Arial;
+    line-height: 1.4;
+}
+.logo{
+    cursor: grab;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(0, 115, 255);
+    font-size: 1.3em;
+}
+.nav-header a{
+    text-decoration: none;
+    margin-right: 1rem;
+    cursor: grab;
+    
+}
+
+aside li{
+    list-style: none;
+    margin-bottom: 1em;
+    margin: 1rem;
+}
+aside a{
+    text-decoration-color: blue;
+    color: rgb(0, 132, 255);
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+}
+.nav-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    padding: 1rem;
+    color: rgb(0, 115, 255);
+    font-size: 1em;
+}
+.nav-footer a{
+    margin-right: 1rem;
+    cursor: grab;
+}
+section p{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.secciones{
+    max-width: 40%;
+}
+section img{
+    float:left;
+    align-content:top;
+}
+.aside-left{
+
+    max-width: 15%;
+}
+.aside-right{
+    border: 1px solid orange;
+    border-radius: 1rem;
+    max-width: 10%;
+    padding: 1rem;
+}
+.aside-right h3{
+    background-color: orange;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+.aside-right a{
+    color: rgb(0, 115, 255);
+    text-decoration: none;
+}
+.aside-2{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(246, 255, 164);
+}
+.aside-2 p{
+color: rgba(0, 0, 255, 0.281);
+}
+.aside-2 a{
+color: orange;
+text-decoration-color: orange;
+}
